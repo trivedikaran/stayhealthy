@@ -1,0 +1,4 @@
+C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy.Services\bin\Debug\StayHealthy.Services.dll
+C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy.Services\bin\Debug\StayHealthy.Services.pdb
+C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy.Services\obj\Debug\StayHealthy.Services.dll
+C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy.Services\obj\Debug\StayHealthy.Services.pdb

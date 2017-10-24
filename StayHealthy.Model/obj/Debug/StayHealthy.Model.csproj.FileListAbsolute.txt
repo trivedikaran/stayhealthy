@@ -1,0 +1,5 @@
+C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy.Model\obj\Debug\StayHealthy.Model.csprojResolveAssemblyReference.cache
+C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy.Model\bin\Debug\StayHealthy.Model.dll
+C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy.Model\bin\Debug\StayHealthy.Model.pdb
+C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy.Model\obj\Debug\StayHealthy.Model.dll
+C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy.Model\obj\Debug\StayHealthy.Model.pdb
