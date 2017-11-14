@@ -30,3 +30,39 @@ C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy.API\b
 C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy.API\obj\Debug\StayHealthy.Api.csprojResolveAssemblyReference.cache
 C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy.API\obj\Debug\StayHealthy.API.dll
 C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy.API\obj\Debug\StayHealthy.API.pdb
+D:\Projects\StayHealthy\StayHealthy.API\bin\StayHealthy.API.dll.config
+D:\Projects\StayHealthy\StayHealthy.API\bin\StayHealthy.API.dll
+D:\Projects\StayHealthy\StayHealthy.API\bin\StayHealthy.API.pdb
+D:\Projects\StayHealthy\StayHealthy.API\bin\Antlr3.Runtime.dll
+D:\Projects\StayHealthy\StayHealthy.API\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\StayHealthy\StayHealthy.API\bin\Newtonsoft.Json.dll
+D:\Projects\StayHealthy\StayHealthy.API\bin\System.Net.Http.Formatting.dll
+D:\Projects\StayHealthy\StayHealthy.API\bin\System.Web.Helpers.dll
+D:\Projects\StayHealthy\StayHealthy.API\bin\System.Web.Http.dll
+D:\Projects\StayHealthy\StayHealthy.API\bin\System.Web.Http.WebHost.dll
+D:\Projects\StayHealthy\StayHealthy.API\bin\System.Web.Mvc.dll
+D:\Projects\StayHealthy\StayHealthy.API\bin\System.Web.Optimization.dll
+D:\Projects\StayHealthy\StayHealthy.API\bin\System.Web.Razor.dll
+D:\Projects\StayHealthy\StayHealthy.API\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\StayHealthy\StayHealthy.API\bin\System.Web.WebPages.dll
+D:\Projects\StayHealthy\StayHealthy.API\bin\System.Web.WebPages.Razor.dll
+D:\Projects\StayHealthy\StayHealthy.API\bin\WebGrease.dll
+D:\Projects\StayHealthy\StayHealthy.API\bin\Newtonsoft.Json.xml
+D:\Projects\StayHealthy\StayHealthy.API\bin\System.Net.Http.Formatting.xml
+D:\Projects\StayHealthy\StayHealthy.API\bin\System.Web.Helpers.xml
+D:\Projects\StayHealthy\StayHealthy.API\bin\System.Web.Http.xml
+D:\Projects\StayHealthy\StayHealthy.API\bin\System.Web.Http.WebHost.xml
+D:\Projects\StayHealthy\StayHealthy.API\bin\System.Web.Mvc.xml
+D:\Projects\StayHealthy\StayHealthy.API\bin\System.Web.Optimization.xml
+D:\Projects\StayHealthy\StayHealthy.API\bin\System.Web.Razor.xml
+D:\Projects\StayHealthy\StayHealthy.API\bin\System.Web.WebPages.xml
+D:\Projects\StayHealthy\StayHealthy.API\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\StayHealthy\StayHealthy.API\bin\System.Web.WebPages.Razor.xml
+D:\Projects\StayHealthy\StayHealthy.API\bin\Antlr3.Runtime.pdb
+D:\Projects\StayHealthy\StayHealthy.API\obj\Debug\StayHealthy.Api.csprojResolveAssemblyReference.cache
+D:\Projects\StayHealthy\StayHealthy.API\obj\Debug\StayHealthy.API.dll
+D:\Projects\StayHealthy\StayHealthy.API\obj\Debug\StayHealthy.API.pdb
+D:\Projects\StayHealthy\StayHealthy.API\bin\EntityFramework.dll
+D:\Projects\StayHealthy\StayHealthy.API\bin\StayHealthy.Entities.dll
+D:\Projects\StayHealthy\StayHealthy.API\bin\StayHealthy.Entities.pdb
+D:\Projects\StayHealthy\StayHealthy.API\bin\EntityFramework.xml

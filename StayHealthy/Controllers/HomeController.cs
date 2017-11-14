@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+
 namespace StayHealthy.Controllers
 {
     public class HomeController : Controller
@@ -12,7 +13,7 @@ namespace StayHealthy.Controllers
         public ActionResult Index()
         {
             ViewBag.Title = "Stay Healthy";
-
+            
             return View();
         }
 

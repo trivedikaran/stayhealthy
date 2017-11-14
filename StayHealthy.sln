@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StayHealthy.Common", "StayH
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StayHealthy.Entities", "StayHealthy.Entities\StayHealthy.Entities.csproj", "{09103CCB-878C-4106-AD76-931FDEB6688C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StayHealthy.Model", "StayHealthy.Model\StayHealthy.Model.csproj", "{C86522B7-E316-4A67-BEC9-178B8FB40EDD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StayHealthy.Services", "StayHealthy.Services\StayHealthy.Services.csproj", "{FDED7773-4C9A-4F72-BD32-9523D597D630}"
 EndProject
 Global
@@ -37,10 +35,6 @@ Global
 		{09103CCB-878C-4106-AD76-931FDEB6688C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09103CCB-878C-4106-AD76-931FDEB6688C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09103CCB-878C-4106-AD76-931FDEB6688C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C86522B7-E316-4A67-BEC9-178B8FB40EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C86522B7-E316-4A67-BEC9-178B8FB40EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C86522B7-E316-4A67-BEC9-178B8FB40EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C86522B7-E316-4A67-BEC9-178B8FB40EDD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FDED7773-4C9A-4F72-BD32-9523D597D630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FDED7773-4C9A-4F72-BD32-9523D597D630}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDED7773-4C9A-4F72-BD32-9523D597D630}.Release|Any CPU.ActiveCfg = Release|Any CPU

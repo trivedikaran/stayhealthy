@@ -3,3 +3,13 @@ C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy.Entit
 C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy.Entities\obj\Debug\StayHealthy.Entities.csprojResolveAssemblyReference.cache
 C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy.Entities\obj\Debug\StayHealthy.Entities.dll
 C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy.Entities\obj\Debug\StayHealthy.Entities.pdb
+D:\Projects\StayHealthy\StayHealthy.Entities\obj\Debug\StayHealthy.Entities.csprojResolveAssemblyReference.cache
+D:\Projects\StayHealthy\StayHealthy.Entities\obj\Debug\StayHealthy.Entities.dll
+D:\Projects\StayHealthy\StayHealthy.Entities\obj\Debug\StayHealthy.Entities.pdb
+D:\Projects\StayHealthy\StayHealthy.Entities\bin\Debug\StayHealthy.Entities.dll.config
+D:\Projects\StayHealthy\StayHealthy.Entities\bin\Debug\StayHealthy.Entities.dll
+D:\Projects\StayHealthy\StayHealthy.Entities\bin\Debug\StayHealthy.Entities.pdb
+D:\Projects\StayHealthy\StayHealthy.Entities\bin\Debug\EntityFramework.dll
+D:\Projects\StayHealthy\StayHealthy.Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\StayHealthy\StayHealthy.Entities\bin\Debug\EntityFramework.xml
+D:\Projects\StayHealthy\StayHealthy.Entities\bin\Debug\EntityFramework.SqlServer.xml
