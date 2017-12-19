@@ -31,7 +31,20 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Net">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.0.0\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -39,7 +52,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\SystemEnum.cs" />
+    <Compile Include="Helpers\APIResponse.cs" />
+    <Compile Include="Helpers\ConvertTo.cs" />
+    <Compile Include="Helpers\Email.cs" />
+    <Compile Include="Helpers\EncryptionDecryption.cs" />
+    <Compile Include="Helpers\EngineContext.cs" />
+    <Compile Include="Helpers\ExtensionMethods.cs" />
+    <Compile Include="Helpers\HttpClient.cs" />
+    <Compile Include="Helpers\ProjectConfiguration.cs" />
+    <Compile Include="Helpers\Security.cs" />
+    <Compile Include="Helpers\SortingPagingInfo.cs" />
+    <Compile Include="Helpers\ToastMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Helpers\WebApiHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StayHealthy.Authentication\StayHealthy.Authentication.csproj">
+      <Project>{9f83f670-bbef-410b-b9a8-0f4bce0a9a95}</Project>
+      <Name>StayHealthy.Authentication</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

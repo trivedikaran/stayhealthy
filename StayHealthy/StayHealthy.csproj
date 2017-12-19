@@ -15,11 +15,13 @@
     <AssemblyName>StayHealthy</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
-    <UseIISExpress>false</UseIISExpress>
+    <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -39,10 +41,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -120,6 +129,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="ControllerExtensions.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -127,6 +137,55 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\css\bootstrap.css" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\demo.css" />
+    <Content Include="assets\css\main.css" />
+    <Content Include="assets\img\apple-icon.png" />
+    <Content Include="assets\img\favicon.png" />
+    <Content Include="assets\img\login-bg.jpg" />
+    <Content Include="assets\img\logo-dark.png" />
+    <Content Include="assets\img\profile-bg.png" />
+    <Content Include="assets\img\user-medium.png" />
+    <Content Include="assets\img\user.png" />
+    <Content Include="assets\img\user1.png" />
+    <Content Include="assets\img\user2.png" />
+    <Content Include="assets\img\user3.png" />
+    <Content Include="assets\img\user4.png" />
+    <Content Include="assets\img\user5.png" />
+    <Content Include="assets\scripts\klorofil-common.js" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="assets\vendor\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="assets\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="assets\vendor\bootstrap\js\npm.js" />
+    <Content Include="assets\vendor\chartist\css\chartist-custom.css" />
+    <Content Include="assets\vendor\chartist\css\chartist.css" />
+    <Content Include="assets\vendor\chartist\css\chartist.min.css" />
+    <Content Include="assets\vendor\chartist\js\chartist.js" />
+    <Content Include="assets\vendor\chartist\js\chartist.min.js" />
+    <Content Include="assets\vendor\font-awesome\css\font-awesome.css" />
+    <Content Include="assets\vendor\font-awesome\css\font-awesome.min.css" />
+    <Content Include="assets\vendor\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\vendor\jquery-slimscroll\jquery.slimscroll.js" />
+    <Content Include="assets\vendor\jquery-slimscroll\jquery.slimscroll.min.js" />
+    <Content Include="assets\vendor\jquery.easy-pie-chart\angular.easypiechart.js" />
+    <Content Include="assets\vendor\jquery.easy-pie-chart\angular.easypiechart.min.js" />
+    <Content Include="assets\vendor\jquery.easy-pie-chart\easypiechart.js" />
+    <Content Include="assets\vendor\jquery.easy-pie-chart\easypiechart.min.js" />
+    <Content Include="assets\vendor\jquery.easy-pie-chart\jquery.easypiechart.js" />
+    <Content Include="assets\vendor\jquery.easy-pie-chart\jquery.easypiechart.min.js" />
+    <Content Include="assets\vendor\jquery\jquery.js" />
+    <Content Include="assets\vendor\jquery\jquery.min.js" />
+    <Content Include="assets\vendor\linearicons\fonts\Linearicons-Free.svg" />
+    <Content Include="assets\vendor\linearicons\style.css" />
+    <Content Include="assets\vendor\toastr\toastr.css" />
+    <Content Include="assets\vendor\toastr\toastr.js" />
+    <Content Include="assets\vendor\toastr\toastr.min.css" />
+    <Content Include="assets\vendor\toastr\toastr.min.js" />
     <Content Include="Content\angular-material.css" />
     <Content Include="Content\angular-material.layout-attributes.css" />
     <Content Include="Content\angular-material.layout-attributes.min.css" />
@@ -136,10 +195,13 @@
     <Content Include="Content\angular-material.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\toastr.css" />
+    <Content Include="Content\toastr.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="JS\appConfiguration.js" />
+    <Content Include="JS\FirstSampleController.js" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
     <Content Include="Scripts\angular-aria.js" />
@@ -187,6 +249,29 @@
     <Content Include="Scripts\angular-aria.min.js.map" />
     <Content Include="Scripts\angular-animate.min.js.map" />
     <Content Include="Scripts\angular.min.js.map" />
+    <Content Include="assets\css\demo.css.map" />
+    <Content Include="assets\css\main.css.map" />
+    <Content Include="assets\vendor\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="assets\vendor\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="assets\vendor\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="assets\vendor\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="assets\vendor\chartist\css\chartist-custom.css.map" />
+    <Content Include="assets\vendor\chartist\map\chartist.css.map" />
+    <Content Include="assets\vendor\chartist\map\chartist.min.js.map" />
+    <Content Include="assets\vendor\chartist\scss\chartist.scss" />
+    <Content Include="assets\vendor\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\vendor\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\vendor\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\vendor\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="assets\vendor\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="assets\vendor\jquery\jquery.min.map" />
+    <Content Include="assets\vendor\linearicons\fonts\Linearicons-Free.eot" />
+    <Content Include="assets\vendor\linearicons\fonts\Linearicons-Free.ttf" />
+    <Content Include="assets\vendor\linearicons\fonts\Linearicons-Free.woff" />
+    <Content Include="assets\vendor\linearicons\fonts\Linearicons-Free.woff2" />
+    <Content Include="Content\toastr.scss" />
+    <Content Include="Content\toastr.less" />
+    <None Include="Properties\PublishProfiles\Karan.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\i18n\angular-locale_af-na.js" />
     <Content Include="Scripts\i18n\angular-locale_af-za.js" />
@@ -936,8 +1021,13 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\toastr.js" />
+    <Content Include="Scripts\toastr.min.js" />
     <Content Include="Templates\HomePage.html" />
-    <Content Include="Web.config" />
+    <Content Include="Templates\MyMeasurement.html" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -946,7 +1036,9 @@
     </Content>
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Views\Web.config" />
+    <Content Include="Views\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
@@ -954,8 +1046,14 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Scripts\version.json" />
     <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\Shared\_NotificationPartial.cshtml" />
+    <Content Include="App_Code\ToastrBuilder.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\StayHealthy.Common\StayHealthy.Common.csproj">
+      <Project>{afd2e9db-104a-4a7e-8ce9-7467ac6725e8}</Project>
+      <Name>StayHealthy.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\StayHealthy.Entities\StayHealthy.Entities.csproj">
       <Project>{09103ccb-878c-4106-ad76-931fdeb6688c}</Project>
       <Name>StayHealthy.Entities</Name>
@@ -996,6 +1094,7 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

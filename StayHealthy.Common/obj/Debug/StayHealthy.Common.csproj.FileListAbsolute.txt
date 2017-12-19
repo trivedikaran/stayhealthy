@@ -3,3 +3,17 @@ C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy.Commo
 C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy.Common\obj\Debug\StayHealthy.Common.csprojResolveAssemblyReference.cache
 C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy.Common\obj\Debug\StayHealthy.Common.dll
 C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy.Common\obj\Debug\StayHealthy.Common.pdb
+D:\Projects\StayHealthy\StayHealthy.Common\bin\Debug\StayHealthy.Common.dll
+D:\Projects\StayHealthy\StayHealthy.Common\bin\Debug\StayHealthy.Common.pdb
+D:\Projects\StayHealthy\StayHealthy.Common\bin\Debug\StayHealthy.Authentication.dll
+D:\Projects\StayHealthy\StayHealthy.Common\bin\Debug\System.Net.dll
+D:\Projects\StayHealthy\StayHealthy.Common\bin\Debug\System.Net.Http.dll
+D:\Projects\StayHealthy\StayHealthy.Common\bin\Debug\System.Net.Http.Formatting.dll
+D:\Projects\StayHealthy\StayHealthy.Common\bin\Debug\System.Web.Http.dll
+D:\Projects\StayHealthy\StayHealthy.Common\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\StayHealthy\StayHealthy.Common\bin\Debug\StayHealthy.Authentication.pdb
+D:\Projects\StayHealthy\StayHealthy.Common\bin\Debug\System.Net.Http.Formatting.xml
+D:\Projects\StayHealthy\StayHealthy.Common\bin\Debug\System.Web.Http.xml
+D:\Projects\StayHealthy\StayHealthy.Common\obj\Debug\StayHealthy.Common.csprojResolveAssemblyReference.cache
+D:\Projects\StayHealthy\StayHealthy.Common\obj\Debug\StayHealthy.Common.dll
+D:\Projects\StayHealthy\StayHealthy.Common\obj\Debug\StayHealthy.Common.pdb

@@ -2,3 +2,8 @@ C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy.Servi
 C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy.Services\bin\Debug\StayHealthy.Services.pdb
 C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy.Services\obj\Debug\StayHealthy.Services.dll
 C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy.Services\obj\Debug\StayHealthy.Services.pdb
+D:\Projects\StayHealthy\StayHealthy.Services\bin\Debug\StayHealthy.Services.dll
+D:\Projects\StayHealthy\StayHealthy.Services\bin\Debug\StayHealthy.Services.pdb
+D:\Projects\StayHealthy\StayHealthy.Services\obj\Debug\StayHealthy.Services.csprojResolveAssemblyReference.cache
+D:\Projects\StayHealthy\StayHealthy.Services\obj\Debug\StayHealthy.Services.dll
+D:\Projects\StayHealthy\StayHealthy.Services\obj\Debug\StayHealthy.Services.pdb

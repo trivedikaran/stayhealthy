@@ -8,7 +8,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Stay Healthy</title>
+    <title>Stay Healthy World</title>
     @Styles.Render("~/Content/css")
     @Styles.Render("~/AngularCSSBundle")
     @Scripts.Render("~/bundles/modernizr")
@@ -18,7 +18,7 @@
     <div class="row header">
         <div class="col-md-5">
             <h2 class="logo">
-                <a href="#">StayHealthy</a>
+                <a href="#">StayHealthyWorld</a>
             </h2>
         </div>
         @using (Html.BeginForm("Login", "Home", FormMethod.Post))
@@ -29,7 +29,7 @@
             </div>
             <div class="col-md-2">
                 <br />
-                @Html.PasswordFor(m => m.Password, new { @class = "form-control", @placeHolder = "Password" })
+                @Html.PasswordFor(m => m.Password, new { @class = "form-control", @placeHolder = "Password", @id = "LoginPassword" })
             </div>
             <div class="col-md-1">
                 <br />
@@ -122,11 +122,14 @@
 @Scripts.Render("~/bundles/JqueryValidation")
 @Scripts.Render("~/bundles/bootstrap")
 @Scripts.Render("~/AngularJSBundle")
+@Html.Partial("_NotificationPartial")
 </html>
 <style type="text/css">
     .header {
-        background-color: rgb(0, 230, 230);
+        /*background-color: rgb(0, 230, 230);*/
+        background: #6dd5ed; /* fallback for old browsers */
     }
+
 
     .logo {
         padding-left: 25px;
@@ -138,13 +141,15 @@
         }
 
     .loginbtn {
-        background-color: rgb(0, 230, 230);
-        color: white;
+        background: #2193b0; /* fallback for old browsers */
+        /*background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0); 
+        background: linear-gradient(to right, #6dd5ed, #2193b0);*/ 
+        /*color: white;*/
     }
 
         .loginbtn:hover {
-            color: rgb(0, 230, 230);
-            background-color: white;
+            /*color: rgb(0, 230, 230);*/
+            background: #2193b0;
         }
 
     .forgotPasswordLink {
@@ -204,5 +209,9 @@
 
     .red {
         color: red;
+    }
+
+    a:hover, a:focus {
+        background: #6dd5ed;
     }
 </style>

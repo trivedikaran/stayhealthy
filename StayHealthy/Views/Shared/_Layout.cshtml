@@ -1,25 +1,32 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="StayHealthyApp">
 <head>
+    <base href="/" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
+    <title>Stay Healthy World</title>
     @Styles.Render("~/Content/css")
-    @Styles.Render("~/AngularCSSBundle")
-    @Scripts.Render("~/bundles/modernizr")
 </head>
-<body ng-app="StayHealthyApp">
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
+<body>
+
+    @*<div class="container body-content">*@
+    <div id="wrapper">
     </div>
+
+    @RenderBody()
+    <footer>
+        <div class="container-fluid">
+            <p class="copyright">&copy;@DateTime.UtcNow.Year  stayhealthyworld.com, Karan Trivedi</p>
+        </div>
+    </footer>
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @Scripts.Render("~/AngularJSBundle")
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/JS/appConfiguration.js"></script>
+    <script src="~/JS/FirstSampleController.js"></script>
     @RenderSection("scripts", required: false)
 </body>
 </html>

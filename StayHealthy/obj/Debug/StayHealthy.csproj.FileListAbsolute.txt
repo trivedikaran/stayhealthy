@@ -32,14 +32,13 @@ c:\users\krn\documents\visual studio 2013\Projects\StayHealthy\StayHealthy\obj\D
 c:\users\krn\documents\visual studio 2013\Projects\StayHealthy\StayHealthy\obj\Debug\StayHealthy.pdb
 C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy\bin\StayHealthy.Entities.dll
 C:\Users\KRN\documents\visual studio 2013\Projects\StayHealthy\StayHealthy\bin\StayHealthy.Entities.pdb
-D:\Projects\StayHealthy\StayHealthy\obj\Debug\StayHealthy.csprojResolveAssemblyReference.cache
-D:\Projects\StayHealthy\StayHealthy\obj\Debug\StayHealthy.dll
 D:\Projects\StayHealthy\StayHealthy\bin\StayHealthy.dll.config
 D:\Projects\StayHealthy\StayHealthy\bin\StayHealthy.dll
 D:\Projects\StayHealthy\StayHealthy\bin\StayHealthy.pdb
 D:\Projects\StayHealthy\StayHealthy\bin\Antlr3.Runtime.dll
 D:\Projects\StayHealthy\StayHealthy\bin\Microsoft.Web.Infrastructure.dll
 D:\Projects\StayHealthy\StayHealthy\bin\Newtonsoft.Json.dll
+D:\Projects\StayHealthy\StayHealthy\bin\StayHealthy.Common.dll
 D:\Projects\StayHealthy\StayHealthy\bin\StayHealthy.Entities.dll
 D:\Projects\StayHealthy\StayHealthy\bin\System.Net.Http.Formatting.dll
 D:\Projects\StayHealthy\StayHealthy\bin\System.Web.Helpers.dll
@@ -52,6 +51,9 @@ D:\Projects\StayHealthy\StayHealthy\bin\System.Web.WebPages.Deployment.dll
 D:\Projects\StayHealthy\StayHealthy\bin\System.Web.WebPages.dll
 D:\Projects\StayHealthy\StayHealthy\bin\System.Web.WebPages.Razor.dll
 D:\Projects\StayHealthy\StayHealthy\bin\WebGrease.dll
+D:\Projects\StayHealthy\StayHealthy\bin\StayHealthy.Authentication.dll
+D:\Projects\StayHealthy\StayHealthy\bin\EntityFramework.dll
+D:\Projects\StayHealthy\StayHealthy\bin\StayHealthy.Common.pdb
 D:\Projects\StayHealthy\StayHealthy\bin\StayHealthy.Entities.pdb
 D:\Projects\StayHealthy\StayHealthy\bin\Newtonsoft.Json.xml
 D:\Projects\StayHealthy\StayHealthy\bin\System.Net.Http.Formatting.xml
@@ -65,6 +67,10 @@ D:\Projects\StayHealthy\StayHealthy\bin\System.Web.WebPages.xml
 D:\Projects\StayHealthy\StayHealthy\bin\System.Web.WebPages.Deployment.xml
 D:\Projects\StayHealthy\StayHealthy\bin\System.Web.WebPages.Razor.xml
 D:\Projects\StayHealthy\StayHealthy\bin\Antlr3.Runtime.pdb
-D:\Projects\StayHealthy\StayHealthy\obj\Debug\StayHealthy.pdb
-D:\Projects\StayHealthy\StayHealthy\bin\EntityFramework.dll
+D:\Projects\StayHealthy\StayHealthy\bin\StayHealthy.Authentication.pdb
 D:\Projects\StayHealthy\StayHealthy\bin\EntityFramework.xml
+D:\Projects\StayHealthy\StayHealthy\obj\Debug\StayHealthy.csprojResolveAssemblyReference.cache
+D:\Projects\StayHealthy\StayHealthy\obj\Debug\StayHealthy.dll
+D:\Projects\StayHealthy\StayHealthy\obj\Debug\StayHealthy.pdb
+D:\Projects\StayHealthy\StayHealthy\bin\EntityFramework.SqlServer.dll
+D:\Projects\StayHealthy\StayHealthy\bin\EntityFramework.SqlServer.xml

@@ -1,0 +1,13 @@
+packages/
+StayHealthy.Entities/bin/
+StayHealthy.Entities/obj/
+StayHealthy/bin/
+StayHealthy.API/bin/
+StayHealthy.Model/bin/
+*.user
+StayHealthy/obj/
+StayHealthy.API/obj/
+StayHealthy.Authentication/obj/
+StayHealthy.Common/bin/
+StayHealthy.Common/obj/
+StayHealthy.Services/obj/

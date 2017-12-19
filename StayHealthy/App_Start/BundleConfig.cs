@@ -18,11 +18,15 @@ namespace StayHealthy
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
-                      "~/Scripts/respond.js"));
+                      "~/Scripts/respond.js",
+                      "~/Scripts/toastr.js"
+                      ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                      "~/Content/toastr.css"
+                      ));
 
             bundles.Add(new StyleBundle("~/AngularCSSBundle").Include(
                 "~/Content/angular-material.css"
@@ -30,7 +34,6 @@ namespace StayHealthy
 
             bundles.Add(new ScriptBundle("~/AngularJSBundle").Include(
                 "~/Scripts/angular.js",
-                "~/Scripts/angular-route.js",
                 "~/Scripts/angular-ui-router.js",
                 "~/Scripts/angular-animate.js",
                 "~/Scripts/angular-aria.js",
