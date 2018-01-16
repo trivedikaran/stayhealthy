@@ -12,3 +12,4 @@ D:\Projects\StayHealthy\StayHealthy.Entities\bin\Debug\EntityFramework.xml
 D:\Projects\StayHealthy\StayHealthy.Entities\bin\Debug\EntityFramework.SqlServer.xml
 D:\Projects\StayHealthy\StayHealthy.Entities\obj\Debug\StayHealthy.Entities.dll
 D:\Projects\StayHealthy\StayHealthy.Entities\obj\Debug\StayHealthy.Entities.pdb
+D:\Projects\StayHealthy\StayHealthy.Entities\obj\Debug\StayHealthy.Entities.csprojResolveAssemblyReference.cache

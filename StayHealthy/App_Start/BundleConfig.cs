@@ -46,6 +46,10 @@ namespace StayHealthy
                 "~/Scripts/jquery.validate.unobtrusive.js"
                 ));
 
+            bundles.Add(new ScriptBundle("~/bundles/JSFiles")
+            .IncludeDirectory("~/JS", "*.js", true)
+                );
+
         }
     }
 }
