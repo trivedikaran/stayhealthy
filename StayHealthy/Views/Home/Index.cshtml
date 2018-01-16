@@ -1,28 +1,13 @@
-﻿<div ng-controller="HomeController">
-    <div class="row header">
-        <div class="col-md-5">
-            <h4 class="logo">
-                <a href="" ui-sref="Home">StayHealthyWorld</a>
-            </h4>
-        </div>
-        @Html.Hidden("UserId", Session["UserId"])
-        <div id="navbar-menu">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <span>{{UserDetail.FirstName}} {{UserDetail.LastName}}</span> <i class="icon-submenu lnr lnr-chevron-down"></i>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="" ui-sref="MyMeasurement"><i class="lnr lnr-cog"></i> <span>My Measurement</span></a></li>
-                        <li><a href="@Url.Action("Logout", "Home")"><i class="lnr lnr-exit"></i> <span>Logout</span></a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div ui-view>
-    </div>
-</div>
+﻿<style type="text/css">
+    .topbar .top-navbar {
+        min-height: 0px;
+    }
+
+    .logo-text {
+        color: white;
+    }
+</style>
+
 <style type="text/css">
     .header {
         /*background-color: rgb(0, 230, 230);*/
